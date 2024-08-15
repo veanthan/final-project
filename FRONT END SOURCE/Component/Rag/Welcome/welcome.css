@@ -1,0 +1,60 @@
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 50px;
+  background-color: #f0f0f0;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/021/915/887/non_2x/recycle-logo-made-from-green-leaf-free-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  width: 50%;
+  text-align: justify;
+  color: #fff;
+}
+
+.welcome-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.welcome-text p {
+  font-size: 1.2em;
+}
+
+.welcome-image {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.but {
+  padding: .5rem;
+  width: auto;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+.solid
+{
+  padding: .5rem;
+  width: auto;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+.change {
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}

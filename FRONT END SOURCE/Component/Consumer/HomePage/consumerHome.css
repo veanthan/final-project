@@ -1,0 +1,33 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .background {
+    /* width: 150%; */
+    background-image: url("../../../public/Designer\ \(1\).png");
+  }
+  .Description {
+    font-family: Titllium Web, sans-serif;
+    width: 80%;
+  }
+  .Name {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    margin-bottom: 50px; /* Space between icon and text */
+  }
+  
+  .icon img {
+    width: 80px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits within the container without distortion */
+  }

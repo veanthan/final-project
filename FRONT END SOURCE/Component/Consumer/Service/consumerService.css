@@ -1,0 +1,101 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: black;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .headerTitle {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 300;
+  }
+  
+  .nav {
+    margin-top: 1em;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .navItem {
+    margin: 0;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navLink:hover {
+    color: #e0e0e0;
+  }
+  
+  .main {
+    padding: 2em 0;
+  }
+  
+  .section {
+    padding: 4em 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 2em 0;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-10px);
+  }
+  
+  .sectionTitle {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .sectionText {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .sectionImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

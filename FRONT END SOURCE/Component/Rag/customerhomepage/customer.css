@@ -1,0 +1,103 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.background {
+  /* width: 150%; */
+  background-image: url("../../../public/Designer\ \(1\).png");
+}
+.Description {
+  font-family: Titllium Web, sans-serif;
+  width: 80%;
+}
+.Name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  margin-bottom: 50px; /* Space between icon and text */
+}
+
+.icon img {
+  width: 80px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image fits within the container without distortion */
+}
+.card {
+  width: 190px;
+  height: 254px;
+  transition: all 0.2s;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 7px 7px 0px 0px #0b2447;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card-inner {
+  background-image: url("../../../public/green.jpg");
+  background-position: top right;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  width: 50%;
+  height: 350px; /* Adjust height as needed */
+}
+
+.text-section {
+  width: 50%;
+  margin-right: 20px;
+  text-align: justify; /* Justify text alignment */
+}
+
+
+.card:hover {
+  transform: scale(1.04) rotate(1deg);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 5px 5px #0b2447;
+  animation: move-up6 2s ease-in infinite alternate-reverse;
+}
+
+.circle:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+
+.circle:nth-child(2) {
+  bottom: -25px;
+  right: -25px;
+  animation-name: move-down1;
+}
+
+@keyframes move-up6 {
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes move-down1 {
+  to {
+    transform: translateY(10px);
+  }
+}
